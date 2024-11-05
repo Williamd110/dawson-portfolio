@@ -1,7 +1,32 @@
 header{
     position: sticky;
-    background-color: rgba(0, 36, 115, 0.651);
-    color: rgb(168, 247, 247);
+    background-color: rgba(1, 20, 61, 0.789);
+    color: rgb(5, 50, 229);
+    outline: auto;
+    padding: 1vw;
     font-style: italic;
+    text-align: end;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    border: 10px;
+    
 
+}
+.portrait{
+    display: flex;
+    width: 75px;
+    height: 175px;
+    margin-left: 10vw;
+}
+body{
+    background-color: rgb(95, 173, 191);
+    margin-left: 5vw;
+}
+.feature-title{
+    color: rgba(159, 255, 245, 0.863);
+    font-style: oblique;
+    text-align: center;
+    outline: auto;
+    text-decoration: wavy  ;
+    background-color: rgba(1, 20, 61, 0.789)
 }
