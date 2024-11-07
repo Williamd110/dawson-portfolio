@@ -1,6 +1,6 @@
-header{
+.header{
     position: sticky;
-    background-color: rgba(1, 20, 61, 0.789);
+    background-color: rgba(0, 41, 130, 0.789);
     color: rgb(5, 50, 229);
     outline: auto;
     padding: 1vw;
@@ -9,18 +9,47 @@ header{
     margin-right: 5vw;
     margin-left: 5vw;
     border: 10px;
-    
+    display: flex;
 
 }
 .portrait{
     display: flex;
-    width: 75px;
-    height: 175px;
-    margin-left: 10vw;
+    width: 85px;
+    height: 200px;
+    margin-left: 30vw;
+    vertical-align: bottom;
 }
 body{
     background-color: rgb(95, 173, 191);
-    margin-left: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+.hellen{
+    font-size:larger;
+    display: flex;
+    margin-inline-start: 20vw;
+    margin-inline-end: 20vw;
+    text-align: center;
+}
+.keller{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.home-body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    vertical-align: bottom;
+}
+.intro{
+    margin-left: 8vw;
+    margin-right: 20vw;
+    vertical-align: bottom;
+    display: flex;
+    flex-wrap: wrap;
 }
 .feature-title{
     color: rgba(159, 255, 245, 0.863);
@@ -30,3 +59,60 @@ body{
     text-decoration: wavy  ;
     background-color: rgba(1, 20, 61, 0.789)
 }
+.golfimg{
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+.golf{
+    display:inline-flex;
+    justify-content: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    
+
+}
+.golfpara{
+    text-align: center;
+    margin-inline-end: 20px;
+    margin-inline-start: 50px;
+    flex-wrap:wrap;
+    font-size: 20px;
+    vertical-align: bottom;
+    margin-top: 4vw;
+        
+}
+.about-desc{
+    display: flex;
+    justify-content: center;
+}
+.gameimg{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.gamebody{
+    display: flex;
+    margin-top: 7vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    justify-content: space-evenly;
+}
+.gamingp{
+    display: flex;
+    vertical-align: center;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+@media screen and (max-width: 700px)
+{
+    body{background-color: rgb(4, 4, 133);}
+    .dawson{color:rgb(187, 216, 242)}
+    body{color: rgb(156, 201, 239);}
+}
+
+    
