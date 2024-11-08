@@ -1,7 +1,5 @@
 .header{
     position: sticky;
-    background-color: rgba(0, 41, 130, 0.789);
-    color: rgb(5, 50, 229);
     outline: auto;
     padding: 1vw;
     font-style: italic;
@@ -10,12 +8,35 @@
     margin-left: 5vw;
     border: 10px;
     display: flex;
-
+}
+.heading{
+    box-shadow: 0 0 12px -2px black;
+    /* position: fixed  */
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #260909;
+    color: rgb(2, 33, 60);
+    display: flex;
+    height: 55px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .dawson{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(2, 57, 121);
+    color: rgb(135, 117, 55);
+    font-size: 3vw;
+    
 }
+/* research how to change link color */
+/* .links{ */
+a:link {
+    text-decoration: none;
+    color: #c08206;
+    text-decoration-line: underline;
+}
+    
 .portrait{
     display: flex;
     width: 85px;
@@ -24,10 +45,11 @@
     vertical-align: bottom;
 }
 body{
-    background-color: rgb(95, 173, 191);
+    background-color: rgb(120, 119, 119);
     margin-left: 10vw;
     margin-right: 10vw;
-    
+    box-shadow: rgb(0, 0, 0);
+   
 }
 .hellen{
     font-size:larger;
@@ -35,6 +57,8 @@ body{
     margin-inline-start: 20vw;
     margin-inline-end: 20vw;
     text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
 }
 .keller{
     display: flex;
@@ -56,23 +80,25 @@ body{
     flex-wrap: wrap;
 }
 .feature-title{
-    color: rgba(159, 255, 245, 0.863);
+    color: rgba(142, 111, 0, 0.733);
     font-style: oblique;
     text-align: center;
     outline: auto;
     text-decoration: wavy  ;
-    background-color: rgba(1, 20, 61, 0.789)
+    background-color: rgba(32, 0, 0, 0.936);
+
 }
 .golfimg{
     display: flex;
     width: auto;
     height: 200px;
-}
+    }
 .golf{
     display:inline-flex;
     justify-content: center;
     margin-right: 10vw;
     margin-left: 10vw;
+    font-family: sans-serif;
     
 
 }
@@ -89,6 +115,7 @@ body{
 .about-desc{
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
 .gameimg{
     display: flex;
@@ -101,6 +128,7 @@ body{
     margin-right: 10vw;
     margin-left: 10vw;
     justify-content: space-evenly;
+    font-family: sans-serif;
 }
 .gamingp{
     display: flex;
@@ -115,12 +143,13 @@ body{
 .cta1{
     display: block;
     justify-content: center;
+    margin-right: 700px;
 }
 @media screen and (max-width: 700px)
 {
-    body{background-color: rgb(4, 4, 133);}
-    .dawson{color:rgb(187, 216, 242)}
-    body{color: rgb(156, 201, 239);}
+    body{background-color: rgb(57, 57, 66);}
+    .dawson{color:rgb(200, 164, 4)}
+    body{color: rgb(172, 118, 0);}
 }
 
     
